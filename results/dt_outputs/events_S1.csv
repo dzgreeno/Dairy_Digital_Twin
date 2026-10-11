@@ -1,0 +1,70 @@
+t,event,where,detail
+58.95639834815164,breakdown,road,+1.3h
+96.59508953288352,feed_delivery,F4,11.5 t after 37h
+97.78421004515702,feed_delivery,F5,10.0 t after 38h
+103.82013571432401,feed_delivery,F1,12.9 t after 44h
+106.63365170300324,feed_delivery,F0,20.1 t after 47h
+114.9906785735512,feed_delivery,F2,22.9 t after 55h
+116.02800499900647,feed_delivery,F3,15.8 t after 56h
+167.3090078306632,breakdown,road,+2.5h
+244.05045601474438,feed_delivery,F4,11.5 t after 28h
+248.14737750659066,feed_delivery,F0,20.1 t after 32h
+253.46041639126048,feed_delivery,F1,12.9 t after 37h
+253.70416561770267,feed_delivery,F5,10.0 t after 37h
+260.8180504028696,feed_delivery,F2,22.9 t after 44h
+277.1857241211113,feed_delivery,F3,15.8 t after 61h
+404.0,breakdown,road,+1.7h
+408.3053575009584,feed_delivery,F3,15.7 t after 35h
+412.0297596243664,feed_delivery,F5,10.0 t after 39h
+417.2392485875964,feed_delivery,F4,11.4 t after 44h
+421.5356327941804,feed_delivery,F2,22.9 t after 48h
+432.79658241793254,feed_delivery,F1,12.9 t after 59h
+443.24291861475484,feed_delivery,F0,20.0 t after 70h
+446.0,cooling_failure,F1,2.9h
+466.1661682045259,breakdown,road,+2.0h
+577.9809835225751,feed_delivery,F5,10.0 t after 48h
+585.6257594449542,feed_delivery,F4,11.5 t after 56h
+586.7804331554275,feed_delivery,F2,22.9 t after 57h
+591.1647907309937,feed_delivery,F1,12.9 t after 61h
+594.4742127703604,feed_delivery,F0,20.1 t after 64h
+610.3774916741056,feed_delivery,F3,15.8 t after 80h
+695.0398740096623,breakdown,road,+2.6h
+723.9949795551098,feed_delivery,F0,20.1 t after 37h
+724.4418547397589,feed_delivery,F2,22.9 t after 38h
+725.2650278570378,feed_delivery,F4,11.5 t after 39h
+731.6859303374301,feed_delivery,F5,10.0 t after 45h
+732.2363688224212,feed_delivery,F1,12.9 t after 46h
+754.8408793344354,feed_delivery,F3,15.8 t after 68h
+862.0,cooling_failure,F0,1.6h
+878.980650560909,feed_delivery,F4,11.5 t after 36h
+880.6183218450678,feed_delivery,F0,20.1 t after 38h
+885.9715966946027,breakdown,road,+1.1h
+886.0,cooling_failure,F1,2.4h
+889.4906213203802,feed_delivery,F1,12.9 t after 46h
+890.5575428235308,feed_delivery,F3,15.8 t after 48h
+897.4703768725166,feed_delivery,F5,10.0 t after 54h
+925.4627645166671,feed_delivery,F2,22.9 t after 82h
+990.0,cooling_failure,F2,1.5h
+1015.0,cooling_failure,F3,2.7h
+1038.5349205593914,feed_delivery,F1,12.9 t after 39h
+1045.2760192745968,feed_delivery,F2,23.0 t after 46h
+1045.7396298549565,feed_delivery,F0,20.1 t after 46h
+1048.6833086888012,feed_delivery,F4,11.5 t after 49h
+1058.8055803736727,feed_delivery,F3,15.8 t after 59h
+1061.3910752217078,feed_delivery,F5,10.0 t after 62h
+1188.3975244178926,feed_delivery,F2,23.0 t after 32h
+1190.5163317830707,feed_delivery,F1,12.9 t after 35h
+1191.2766388142227,feed_delivery,F0,20.0 t after 36h
+1195.2274498633628,feed_delivery,F4,11.5 t after 39h
+1200.7973446456122,feed_delivery,F3,15.8 t after 45h
+1210.9562668777764,breakdown,road,+1.1h
+1221.452163730576,feed_delivery,F5,10.0 t after 66h
+1292.986886898932,breakdown,road,+1.1h
+1346.12338200323,feed_delivery,F5,10.0 t after 34h
+1346.8749883794892,feed_delivery,F3,15.8 t after 34h
+1351.5384261444299,feed_delivery,F4,11.5 t after 39h
+1353.3941932129478,breakdown,road,+1.7h
+1360.7404265844864,feed_delivery,F1,12.9 t after 49h
+1367.8086837154453,feed_delivery,F2,23.0 t after 55h
+1372.0,cooling_failure,F1,2.7h
+1379.7279942148887,feed_delivery,F0,20.1 t after 68h

@@ -1,0 +1,1102 @@
+group,parameter,value,source,note
+farm,mastitis_label_rate_in_dataset,0.2112,DATA:cow_milk_mastitis_dataset.csv,class balance of the dataset (not used as herd prevalence: clinical datasets are enriched)
+farm,iot_alarm_feature,Somatic_Cell_Count,DATA:cow_milk_mastitis_dataset.csv,best single sensor by Youden J=0.99
+farm,iot_alarm_threshold,275.68,DATA:cow_milk_mastitis_dataset.csv,alarm if value >= threshold
+farm,sens,0.9941,DATA:cow_milk_mastitis_dataset.csv,sensitivity of IoT alarm
+farm,spec,1.0,DATA:cow_milk_mastitis_dataset.csv,specificity of IoT alarm
+farm,mast_yield_ratio,0.4643,DATA:cow_milk_mastitis_dataset.csv,yield mastitic/healthy
+farm,yield_l,20.148,DATA:cow_milk_mastitis_dataset.csv,mean daily yield of healthy cows
+farm,thi_thr,69.0,DEFAULT,literature / engineering default
+farm,yield_loss_thi,0.41,DEFAULT,literature / engineering default
+farm,amb_mean,22.0,DEFAULT,literature / engineering default
+farm,amb_amp,6.0,DEFAULT,literature / engineering default
+farm,rh_mean,50.0,DEFAULT,literature / engineering default
+farm,mast_prev,0.04,DEFAULT,literature / engineering default
+farm,mast_heat_slope,0.004,DEFAULT,literature / engineering default
+farm,cbt_stress_frac,,DEFAULT,literature / engineering default
+spoilage,cs_set,3.5,DATA:Datos (1).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5692,DATA:Datos (1).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (1).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (10).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (10).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (10).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (11).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1871,DATA:Datos (11).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (11).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (12).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1328,DATA:Datos (12).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (12).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (13).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (13).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (13).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (15).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7812,DATA:Datos (15).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (15).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (16).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5223,DATA:Datos (16).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (16).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (17).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4792,DATA:Datos (17).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (17).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (18).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (18).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (18).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (19).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3168,DATA:Datos (19).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (19).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (2).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4659,DATA:Datos (2).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (2).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (20).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2921,DATA:Datos (20).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (20).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (21).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6085,DATA:Datos (21).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (21).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,7.0,DATA:Datos (22).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9265,DATA:Datos (22).xlsx,std of cold readings
+spoilage,cs_exc_p_day,2.0,DATA:Datos (22).xlsx,P(T>7.0°C)=0.397 → events/day
+spoilage,cs_set,3.5,DATA:Datos (23).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4061,DATA:Datos (23).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (23).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.0,DATA:Datos (24).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9842,DATA:Datos (24).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (24).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (25).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5321,DATA:Datos (25).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (25).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (26).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7805,DATA:Datos (26).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (26).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (27).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2569,DATA:Datos (27).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (27).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (28).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4204,DATA:Datos (28).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (28).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (29).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7855,DATA:Datos (29).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (29).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (3).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3573,DATA:Datos (3).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (3).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (30).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6979,DATA:Datos (30).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (30).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (31).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1476,DATA:Datos (31).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (31).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (32).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.526,DATA:Datos (32).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (32).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (33).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3008,DATA:Datos (33).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (33).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (34).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.272,DATA:Datos (34).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0217,DATA:Datos (34).xlsx,P(T>7.0°C)=0.002 → events/day
+spoilage,cs_set,3.5,DATA:Datos (35).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.5221,DATA:Datos (35).xlsx,std of cold readings
+spoilage,cs_exc_p_day,1.0315,DATA:Datos (35).xlsx,P(T>7.0°C)=0.086 → events/day
+spoilage,cs_set,3.0,DATA:Datos (36).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8467,DATA:Datos (36).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (36).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (37).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9858,DATA:Datos (37).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (37).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (38).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1002,DATA:Datos (38).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (38).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (39).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5269,DATA:Datos (39).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (39).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (4).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3221,DATA:Datos (4).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (4).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (40).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1202,DATA:Datos (40).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (40).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (41).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8019,DATA:Datos (41).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.2707,DATA:Datos (41).xlsx,P(T>7.0°C)=0.023 → events/day
+spoilage,cs_set,4.5,DATA:Datos (42).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.0689,DATA:Datos (42).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (42).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (43).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7731,DATA:Datos (43).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (43).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (44).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8845,DATA:Datos (44).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (44).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (45).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7252,DATA:Datos (45).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (45).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (46).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.173,DATA:Datos (46).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (46).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (47).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5584,DATA:Datos (47).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (47).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (48).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.2859,DATA:Datos (48).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (48).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (49).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8084,DATA:Datos (49).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (49).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (5).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (5).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (5).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (50).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (50).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (50).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (51).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.3829,DATA:Datos (51).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (51).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (52).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.149,DATA:Datos (52).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (52).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (53).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2161,DATA:Datos (53).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (53).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (54).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2316,DATA:Datos (54).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (54).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (55).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.125,DATA:Datos (55).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (55).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (56).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5272,DATA:Datos (56).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (56).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (57).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5467,DATA:Datos (57).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (57).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (58).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1776,DATA:Datos (58).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (58).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (59).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6037,DATA:Datos (59).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (59).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (6).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (6).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (6).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (60).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1079,DATA:Datos (60).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (60).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.5,DATA:Datos (61).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2581,DATA:Datos (61).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (61).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (62).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9794,DATA:Datos (62).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (62).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (63).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1146,DATA:Datos (63).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (63).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (64).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1599,DATA:Datos (64).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (64).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (65).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.116,DATA:Datos (65).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (65).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (66).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2184,DATA:Datos (66).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (66).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (67).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7397,DATA:Datos (67).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (67).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (68).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4802,DATA:Datos (68).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (68).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (69).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1555,DATA:Datos (69).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (69).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (7).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (7).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (7).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (70).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4199,DATA:Datos (70).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (70).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (71).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.587,DATA:Datos (71).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (71).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (72).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6945,DATA:Datos (72).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (72).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (73).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5506,DATA:Datos (73).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (73).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (74).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5359,DATA:Datos (74).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (74).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (75).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.267,DATA:Datos (75).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (75).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (76).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2087,DATA:Datos (76).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (76).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (77).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3683,DATA:Datos (77).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (77).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (79).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4711,DATA:Datos (79).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (79).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (8).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2299,DATA:Datos (8).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (8).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (80).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (80).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (80).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (81).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2502,DATA:Datos (81).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (81).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (82).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4804,DATA:Datos (82).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (82).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (83).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (83).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (83).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (85).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6269,DATA:Datos (85).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (85).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (86).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2977,DATA:Datos (86).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (86).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (87).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2213,DATA:Datos (87).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (87).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (88).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (88).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (88).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (89).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3197,DATA:Datos (89).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (89).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (9).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (9).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (9).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (90).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3554,DATA:Datos (90).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (90).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (91).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5549,DATA:Datos (91).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (91).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (92).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3112,DATA:Datos (92).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (92).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (1).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5692,DATA:Datos (1).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (1).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (10).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (10).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (10).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (11).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1871,DATA:Datos (11).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (11).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (12).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1328,DATA:Datos (12).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (12).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (13).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (13).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (13).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (15).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7812,DATA:Datos (15).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (15).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (16).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5223,DATA:Datos (16).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (16).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (17).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4792,DATA:Datos (17).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (17).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (18).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (18).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (18).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (19).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3168,DATA:Datos (19).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (19).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (2).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4659,DATA:Datos (2).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (2).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (20).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2921,DATA:Datos (20).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (20).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (21).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6085,DATA:Datos (21).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (21).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,7.0,DATA:Datos (22).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9265,DATA:Datos (22).xlsx,std of cold readings
+spoilage,cs_exc_p_day,2.0,DATA:Datos (22).xlsx,P(T>7.0°C)=0.397 → events/day
+spoilage,cs_set,3.5,DATA:Datos (23).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4061,DATA:Datos (23).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (23).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.0,DATA:Datos (24).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9842,DATA:Datos (24).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (24).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (25).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5321,DATA:Datos (25).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (25).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (26).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7805,DATA:Datos (26).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (26).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (27).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2569,DATA:Datos (27).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (27).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (28).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4204,DATA:Datos (28).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (28).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (29).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7855,DATA:Datos (29).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (29).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (3).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3573,DATA:Datos (3).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (3).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (30).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6979,DATA:Datos (30).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (30).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (31).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1476,DATA:Datos (31).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (31).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (32).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.526,DATA:Datos (32).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (32).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (33).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3008,DATA:Datos (33).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (33).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (34).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.272,DATA:Datos (34).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0217,DATA:Datos (34).xlsx,P(T>7.0°C)=0.002 → events/day
+spoilage,cs_set,3.5,DATA:Datos (35).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.5221,DATA:Datos (35).xlsx,std of cold readings
+spoilage,cs_exc_p_day,1.0315,DATA:Datos (35).xlsx,P(T>7.0°C)=0.086 → events/day
+spoilage,cs_set,3.0,DATA:Datos (36).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8467,DATA:Datos (36).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (36).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (37).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9858,DATA:Datos (37).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (37).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (38).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1002,DATA:Datos (38).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (38).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (39).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5269,DATA:Datos (39).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (39).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (4).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3221,DATA:Datos (4).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (4).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (40).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1202,DATA:Datos (40).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (40).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (41).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8019,DATA:Datos (41).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.2707,DATA:Datos (41).xlsx,P(T>7.0°C)=0.023 → events/day
+spoilage,cs_set,4.5,DATA:Datos (42).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.0689,DATA:Datos (42).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (42).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (43).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7731,DATA:Datos (43).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (43).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (44).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8845,DATA:Datos (44).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (44).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (45).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7252,DATA:Datos (45).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (45).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (46).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.173,DATA:Datos (46).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (46).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (47).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5584,DATA:Datos (47).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (47).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (48).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.2859,DATA:Datos (48).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (48).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (49).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8084,DATA:Datos (49).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (49).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (5).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (5).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (5).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (50).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (50).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (50).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (51).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.3829,DATA:Datos (51).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (51).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (52).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.149,DATA:Datos (52).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (52).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (53).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2161,DATA:Datos (53).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (53).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (54).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2316,DATA:Datos (54).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (54).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (55).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.125,DATA:Datos (55).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (55).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (56).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5272,DATA:Datos (56).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (56).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (57).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5467,DATA:Datos (57).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (57).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (58).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1776,DATA:Datos (58).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (58).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (59).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6037,DATA:Datos (59).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (59).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (6).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (6).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (6).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (60).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1079,DATA:Datos (60).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (60).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.5,DATA:Datos (61).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2581,DATA:Datos (61).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (61).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (62).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9794,DATA:Datos (62).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (62).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (63).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1146,DATA:Datos (63).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (63).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (64).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1599,DATA:Datos (64).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (64).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (65).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.116,DATA:Datos (65).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (65).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (66).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2184,DATA:Datos (66).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (66).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (67).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7397,DATA:Datos (67).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (67).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (68).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4802,DATA:Datos (68).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (68).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (69).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1555,DATA:Datos (69).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (69).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (7).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (7).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (7).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (70).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4199,DATA:Datos (70).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (70).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (71).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.587,DATA:Datos (71).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (71).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (72).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6945,DATA:Datos (72).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (72).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (73).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5506,DATA:Datos (73).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (73).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (74).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5359,DATA:Datos (74).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (74).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (75).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.267,DATA:Datos (75).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (75).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (76).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2087,DATA:Datos (76).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (76).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (77).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3683,DATA:Datos (77).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (77).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (79).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4711,DATA:Datos (79).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (79).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (8).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2299,DATA:Datos (8).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (8).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (80).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (80).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (80).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (81).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2502,DATA:Datos (81).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (81).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (82).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4804,DATA:Datos (82).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (82).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (83).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (83).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (83).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (85).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6269,DATA:Datos (85).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (85).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (86).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2977,DATA:Datos (86).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (86).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (87).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2213,DATA:Datos (87).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (87).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (88).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (88).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (88).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (89).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3197,DATA:Datos (89).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (89).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (9).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (9).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (9).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (90).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3554,DATA:Datos (90).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (90).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (91).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5549,DATA:Datos (91).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (91).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (92).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3112,DATA:Datos (92).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (92).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (1).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5692,DATA:Datos (1).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (1).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (10).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (10).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (10).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (11).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1871,DATA:Datos (11).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (11).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (12).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1328,DATA:Datos (12).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (12).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (13).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (13).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (13).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (15).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7812,DATA:Datos (15).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (15).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (16).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5223,DATA:Datos (16).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (16).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (17).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4792,DATA:Datos (17).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (17).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (18).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (18).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (18).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (19).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3168,DATA:Datos (19).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (19).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (2).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4659,DATA:Datos (2).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (2).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (20).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2921,DATA:Datos (20).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (20).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (21).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6085,DATA:Datos (21).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (21).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,7.0,DATA:Datos (22).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9265,DATA:Datos (22).xlsx,std of cold readings
+spoilage,cs_exc_p_day,2.0,DATA:Datos (22).xlsx,P(T>7.0°C)=0.397 → events/day
+spoilage,cs_set,3.5,DATA:Datos (23).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4061,DATA:Datos (23).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (23).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.0,DATA:Datos (24).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9842,DATA:Datos (24).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (24).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (25).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5321,DATA:Datos (25).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (25).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (26).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7805,DATA:Datos (26).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (26).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (27).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2569,DATA:Datos (27).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (27).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (28).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4204,DATA:Datos (28).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (28).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (29).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7855,DATA:Datos (29).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (29).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (3).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3573,DATA:Datos (3).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (3).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (30).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6979,DATA:Datos (30).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (30).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (31).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1476,DATA:Datos (31).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (31).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (32).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.526,DATA:Datos (32).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (32).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (33).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3008,DATA:Datos (33).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (33).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (34).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.272,DATA:Datos (34).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0217,DATA:Datos (34).xlsx,P(T>7.0°C)=0.002 → events/day
+spoilage,cs_set,3.5,DATA:Datos (35).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.5221,DATA:Datos (35).xlsx,std of cold readings
+spoilage,cs_exc_p_day,1.0315,DATA:Datos (35).xlsx,P(T>7.0°C)=0.086 → events/day
+spoilage,cs_set,3.0,DATA:Datos (36).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8467,DATA:Datos (36).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (36).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (37).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9858,DATA:Datos (37).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (37).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (38).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1002,DATA:Datos (38).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (38).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (39).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5269,DATA:Datos (39).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (39).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (4).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3221,DATA:Datos (4).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (4).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (40).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1202,DATA:Datos (40).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (40).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (41).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8019,DATA:Datos (41).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.2707,DATA:Datos (41).xlsx,P(T>7.0°C)=0.023 → events/day
+spoilage,cs_set,4.5,DATA:Datos (42).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.0689,DATA:Datos (42).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (42).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (43).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7731,DATA:Datos (43).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (43).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (44).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8845,DATA:Datos (44).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (44).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (45).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7252,DATA:Datos (45).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (45).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (46).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.173,DATA:Datos (46).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (46).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (47).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5584,DATA:Datos (47).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (47).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (48).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.2859,DATA:Datos (48).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (48).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (49).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8084,DATA:Datos (49).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (49).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (5).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (5).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (5).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (50).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (50).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (50).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (51).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.3829,DATA:Datos (51).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (51).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (52).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.149,DATA:Datos (52).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (52).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (53).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2161,DATA:Datos (53).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (53).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (54).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2316,DATA:Datos (54).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (54).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (55).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.125,DATA:Datos (55).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (55).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (56).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5272,DATA:Datos (56).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (56).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (57).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5467,DATA:Datos (57).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (57).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (58).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1776,DATA:Datos (58).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (58).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (59).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6037,DATA:Datos (59).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (59).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (6).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (6).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (6).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (60).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1079,DATA:Datos (60).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (60).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.5,DATA:Datos (61).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2581,DATA:Datos (61).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (61).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (62).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9794,DATA:Datos (62).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (62).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (63).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1146,DATA:Datos (63).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (63).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (64).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1599,DATA:Datos (64).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (64).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (65).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.116,DATA:Datos (65).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (65).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (66).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2184,DATA:Datos (66).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (66).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (67).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7397,DATA:Datos (67).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (67).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (68).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4802,DATA:Datos (68).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (68).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (69).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1555,DATA:Datos (69).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (69).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (7).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (7).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (7).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (70).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4199,DATA:Datos (70).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (70).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (71).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.587,DATA:Datos (71).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (71).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (72).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6945,DATA:Datos (72).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (72).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (73).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5506,DATA:Datos (73).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (73).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (74).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5359,DATA:Datos (74).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (74).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (75).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.267,DATA:Datos (75).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (75).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (76).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2087,DATA:Datos (76).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (76).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (77).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3683,DATA:Datos (77).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (77).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (79).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4711,DATA:Datos (79).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (79).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (8).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2299,DATA:Datos (8).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (8).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (80).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (80).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (80).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (81).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2502,DATA:Datos (81).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (81).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (82).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4804,DATA:Datos (82).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (82).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (83).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (83).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (83).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (85).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6269,DATA:Datos (85).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (85).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (86).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2977,DATA:Datos (86).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (86).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (87).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2213,DATA:Datos (87).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (87).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (88).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (88).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (88).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (89).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3197,DATA:Datos (89).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (89).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (9).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (9).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (9).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (90).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3554,DATA:Datos (90).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (90).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (91).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5549,DATA:Datos (91).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (91).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (92).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3112,DATA:Datos (92).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (92).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (1).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5692,DATA:Datos (1).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (1).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (10).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (10).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (10).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (11).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1871,DATA:Datos (11).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (11).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (12).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1328,DATA:Datos (12).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (12).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (13).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (13).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (13).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (15).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7812,DATA:Datos (15).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (15).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (16).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5223,DATA:Datos (16).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (16).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (17).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4792,DATA:Datos (17).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (17).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (18).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (18).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (18).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (19).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3168,DATA:Datos (19).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (19).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (2).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4659,DATA:Datos (2).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (2).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (20).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2921,DATA:Datos (20).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (20).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (21).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6085,DATA:Datos (21).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (21).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,7.0,DATA:Datos (22).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9265,DATA:Datos (22).xlsx,std of cold readings
+spoilage,cs_exc_p_day,2.0,DATA:Datos (22).xlsx,P(T>7.0°C)=0.397 → events/day
+spoilage,cs_set,3.5,DATA:Datos (23).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4061,DATA:Datos (23).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (23).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.0,DATA:Datos (24).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9842,DATA:Datos (24).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (24).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (25).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5321,DATA:Datos (25).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (25).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (26).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7805,DATA:Datos (26).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (26).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (27).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2569,DATA:Datos (27).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (27).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,1.5,DATA:Datos (28).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4204,DATA:Datos (28).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (28).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (29).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7855,DATA:Datos (29).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (29).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (3).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3573,DATA:Datos (3).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (3).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (30).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6979,DATA:Datos (30).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (30).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (31).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1476,DATA:Datos (31).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (31).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (32).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.526,DATA:Datos (32).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (32).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (33).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3008,DATA:Datos (33).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (33).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (34).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.272,DATA:Datos (34).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0217,DATA:Datos (34).xlsx,P(T>7.0°C)=0.002 → events/day
+spoilage,cs_set,3.5,DATA:Datos (35).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.5221,DATA:Datos (35).xlsx,std of cold readings
+spoilage,cs_exc_p_day,1.0315,DATA:Datos (35).xlsx,P(T>7.0°C)=0.086 → events/day
+spoilage,cs_set,3.0,DATA:Datos (36).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8467,DATA:Datos (36).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (36).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (37).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9858,DATA:Datos (37).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (37).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (38).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1002,DATA:Datos (38).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (38).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (39).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5269,DATA:Datos (39).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (39).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (4).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3221,DATA:Datos (4).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (4).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (40).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1202,DATA:Datos (40).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (40).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (41).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8019,DATA:Datos (41).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.2707,DATA:Datos (41).xlsx,P(T>7.0°C)=0.023 → events/day
+spoilage,cs_set,4.5,DATA:Datos (42).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.0689,DATA:Datos (42).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (42).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (43).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7731,DATA:Datos (43).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (43).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (44).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8845,DATA:Datos (44).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (44).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (45).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7252,DATA:Datos (45).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (45).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (46).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.173,DATA:Datos (46).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (46).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (47).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5584,DATA:Datos (47).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (47).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (48).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.2859,DATA:Datos (48).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (48).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (49).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.8084,DATA:Datos (49).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (49).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (5).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (5).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (5).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (50).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (50).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (50).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (51).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.3829,DATA:Datos (51).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (51).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (52).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.149,DATA:Datos (52).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (52).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (53).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2161,DATA:Datos (53).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (53).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (54).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2316,DATA:Datos (54).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (54).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (55).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.125,DATA:Datos (55).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (55).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (56).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5272,DATA:Datos (56).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (56).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (57).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5467,DATA:Datos (57).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (57).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (58).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.1776,DATA:Datos (58).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (58).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (59).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6037,DATA:Datos (59).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (59).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.5,DATA:Datos (6).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (6).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (6).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (60).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1079,DATA:Datos (60).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (60).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.5,DATA:Datos (61).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2581,DATA:Datos (61).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (61).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (62).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.9794,DATA:Datos (62).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (62).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (63).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1146,DATA:Datos (63).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (63).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (64).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1599,DATA:Datos (64).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (64).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (65).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,1.116,DATA:Datos (65).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (65).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (66).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2184,DATA:Datos (66).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (66).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (67).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.7397,DATA:Datos (67).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (67).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,6.0,DATA:Datos (68).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4802,DATA:Datos (68).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (68).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (69).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1555,DATA:Datos (69).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (69).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (7).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (7).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (7).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (70).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4199,DATA:Datos (70).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (70).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (71).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.587,DATA:Datos (71).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (71).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.5,DATA:Datos (72).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6945,DATA:Datos (72).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (72).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (73).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5506,DATA:Datos (73).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (73).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (74).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5359,DATA:Datos (74).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (74).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (75).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.267,DATA:Datos (75).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (75).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (76).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2087,DATA:Datos (76).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (76).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,5.0,DATA:Datos (77).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3683,DATA:Datos (77).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (77).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (79).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4711,DATA:Datos (79).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (79).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (8).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2299,DATA:Datos (8).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (8).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (80).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (80).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (80).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (81).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2502,DATA:Datos (81).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (81).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (82).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.4804,DATA:Datos (82).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (82).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (83).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (83).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (83).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (85).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.6269,DATA:Datos (85).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (85).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (86).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2977,DATA:Datos (86).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (86).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (87).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.2213,DATA:Datos (87).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (87).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.5,DATA:Datos (88).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (88).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (88).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (89).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3197,DATA:Datos (89).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (89).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,2.0,DATA:Datos (9).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.1,DATA:Datos (9).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (9).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.5,DATA:Datos (90).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3554,DATA:Datos (90).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (90).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,4.0,DATA:Datos (91).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.5549,DATA:Datos (91).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (91).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,cs_set,3.0,DATA:Datos (92).xlsx,median of 'Temperatura' cold readings
+spoilage,cs_sd,0.3112,DATA:Datos (92).xlsx,std of cold readings
+spoilage,cs_exc_p_day,0.0,DATA:Datos (92).xlsx,P(T>7.0°C)=0.000 → events/day
+spoilage,Tmin,-6.0,DEFAULT,predictive-microbiology / regulatory default
+spoilage,Tref,4.0,DEFAULT,predictive-microbiology / regulatory default
+spoilage,raw_limit_h,72.0,DEFAULT,predictive-microbiology / regulatory default
+spoilage,fg_shelf_days,10.0,DEFAULT,predictive-microbiology / regulatory default
+spoilage,min_remaining,0.3,DEFAULT,predictive-microbiology / regulatory default
+spoilage,cs_exc_delta,4.0,DEFAULT,predictive-microbiology / regulatory default
+spoilage,excursion_T,7.0,DEFAULT,predictive-microbiology / regulatory default
+spoilage,farm_alarm_T,8.0,DEFAULT,predictive-microbiology / regulatory default
+spoilage,benchmark_waste_pct,,DEFAULT,predictive-microbiology / regulatory default
+demand,product_filter,Milk,DATA:Country Delight Diary Sales and Inventory Dataset.csv,11953 rows
+demand,cv_raw_unclipped,1.2067,DATA:Country Delight Diary Sales and Inventory Dataset.csv,sparse multi-region records → CV clipped to 0.5 for a single plant
+demand,cv_daily,0.5,DATA:Country Delight Diary Sales and Inventory Dataset.csv,"1458 days, mean=2,050 units/day"
+demand,dow_factors,"[1.003, 1.091, 1.087, 0.983, 0.934, 0.93, 0.972]",DATA:Country Delight Diary Sales and Inventory Dataset.csv,Mon..Sun
+demand,q_days,0.5381,DATA:Country Delight Diary Sales and Inventory Dataset.csv,median ReorderQty/QtySold → batch size in days of demand
+demand,minstock_to_sales_ratio,0.2707,DATA:Country Delight Diary Sales and Inventory Dataset.csv,benchmark of the company's own policy
+demand,share,0.85,DEFAULT,engineering default
+demand,service_z,1.645,DEFAULT,engineering default
+demand,lead_days,1.0,DEFAULT,engineering default
