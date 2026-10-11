@@ -3,11 +3,13 @@
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
 [![SimPy](https://img.shields.io/badge/Engine-SimPy%204.1-orange.svg)](https://simpy.readthedocs.io)
 [![Kaggle Verified](https://img.shields.io/badge/Kaggle-Notebook%20Executed-20BEFF.svg)](https://www.kaggle.com/code/greenalgeria/dairy-supply-chain-digital-twin-final)
+[![Live Project Site](https://img.shields.io/badge/Live%20Project-Interactive%20Webpage-047857.svg)](https://dzgreeno.github.io/Dairy_Digital_Twin/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Pages Portfolio](https://img.shields.io/badge/Author%20Portfolio-Lakhdar%20Taibaoui-emerald.svg)](https://dzgreeno.github.io/Curriculum_Vitae/)
+[![Author Portfolio](https://img.shields.io/badge/Portfolio-Lakhdar%20Taibaoui-emerald.svg)](https://dzgreeno.github.io/Curriculum_Vitae/)
 
 > **Industrial Case Study & Resilience Benchmark:** An end-to-end operational digital twin simulating dynamic dairy collection, cold-chain integrity, biophysical microbial degradation, and fleet logistics under extreme climatic and infrastructural stress. Tailored for desert mega-dairy projects (e.g., **Baladna El Djazair**, Adrar).
 
+🔗 **Live Interactive Webpage:** [https://dzgreeno.github.io/Dairy_Digital_Twin/](https://dzgreeno.github.io/Dairy_Digital_Twin/)  
 🔗 **Live Executed Kaggle Kernel:** [https://www.kaggle.com/code/greenalgeria/dairy-supply-chain-digital-twin-final](https://www.kaggle.com/code/greenalgeria/dairy-supply-chain-digital-twin-final)
 
 ---
@@ -183,8 +185,8 @@ Dairy_Digital_Twin/
 ### 2. Local Python Environment
 ```bash
 # Clone the repository
-git clone https://github.com/dzgreeno/Curriculum_Vitae.git
-cd Curriculum_Vitae/Dairy_Digital_Twin
+git clone https://github.com/dzgreeno/Dairy_Digital_Twin.git
+cd Dairy_Digital_Twin
 
 # Install dependencies
 pip install simpy numpy pandas matplotlib scipy
